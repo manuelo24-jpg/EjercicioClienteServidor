@@ -45,7 +45,10 @@ public class StudentService {
             List<Student> students = Arrays.asList(
                     new Student("John", "Doe", "john.doe@example.com"),
                     new Student("Jane", "Smith", "jane.smith@example.com"),
-                    new Student("Alice", "Johnson", "alice.johnson@example.com"));
+                    new Student("Alice", "Johnson", "alice.johnson@example.com"),
+                    new Student("Bob", "Brown", "bob.bobshon@example.com "),
+                    new Student("Charlie", "Davis", "charlie.charlton@example.com"),
+                    new Student("David", "Evans", "david.raimon@example.com"));
             studentRepository.saveAll(students);
         }
     }
